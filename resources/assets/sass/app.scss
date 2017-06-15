@@ -1,0 +1,25 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+#map, #map_canvas2{
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.panel{
+  .panel-heading{
+    background-color: maroon;
+    color: white;
+  }
+  .concluido {
+    color: green;
+  }
+}
