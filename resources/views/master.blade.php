@@ -9,6 +9,8 @@
         <title>Laravel</title>
         <!-- Styles -->
         <link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMRo3Br-sRCNSnbFl41pqs5e__U5hWOws"
+            async defer></script>
         @yield('head')
     </head>
     <body>
@@ -22,10 +24,6 @@
 
         @yield('footer')
 <!-- <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script> -->
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMRo3Br-sRCNSnbFl41pqs5e__U5hWOws"
-        async defer></script>
-
         <script src="{{ mix('js/app.js') }}"></script>
         <script src="{{ mix('js/map.js') }}"></script>
     </body>

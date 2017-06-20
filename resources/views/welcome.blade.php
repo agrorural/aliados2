@@ -14,7 +14,7 @@
           @endif
       </div>
   @endif
-  <h1 class="page-header">Dashboard</h1>
+  <!-- <h1 class="page-header">Dashboard</h1> -->
   <div id="app">
     <!-- <div id="map_canvas2"></div> -->
   </div>
