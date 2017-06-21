@@ -9,8 +9,7 @@
         <title>Laravel</title>
         <!-- Styles -->
         <link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css">
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMRo3Br-sRCNSnbFl41pqs5e__U5hWOws"
-            async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMRo3Br-sRCNSnbFl41pqs5e__U5hWOws"></script>
         @yield('head')
     </head>
     <body>
