@@ -22,7 +22,8 @@
         </div>
 
         @yield('footer')
-<!-- <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script> -->
+        <script src="js/data.json"></script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
         <script src="{{ mix('js/app.js') }}"></script>
         <script src="{{ mix('js/map.js') }}"></script>
     </body>
